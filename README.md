@@ -4,6 +4,8 @@ Translator between English and Chinese, built on top of OpenAI. Full-stack web a
 
 Requires an Open AI API Key, set as `OPENAI_API_KEY` inside an `.env` file located at `packages/server/.env`.
 
+Hacked together in a couple hours - sorry about some messy code.
+
 ![Demo UI of Translate AI](/assets/demo.png)
 
 ---
