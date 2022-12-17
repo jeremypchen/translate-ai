@@ -1,0 +1,22 @@
+{
+  "name": "app-name",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": " ",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "ts-node": "*",
+    "@types/node": "*",
+    "typescript": "*"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start-web": "yarn workspace web dev",
+    "start-server": "yarn workspace server dev",
+    "heroku-postbuild": "yarn workspace server build"
+  }
+}
