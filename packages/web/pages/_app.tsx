@@ -38,7 +38,7 @@ const App = ({ Component, pageProps }: AppProps) => {
     // const { data } = await axios.get(`${Config.API_BASE_URL}`, { params: {} })
   }, [])
 
-  const title = 'translate'
+  const title = 'translate AI'
   const description = ''
 
   return (

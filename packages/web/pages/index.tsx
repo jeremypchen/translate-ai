@@ -52,7 +52,7 @@ const InitialPage: NextPage = () => {
           padding="40px"
         >
           <Text fontWeight="semibold" fontSize="18px">
-            translate
+            translate AI
           </Text>
           <Textarea
             marginTop="4px"
