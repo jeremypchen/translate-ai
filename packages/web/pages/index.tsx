@@ -23,7 +23,7 @@ const InitialPage: NextPage = () => {
       setIsLoading(true)
       setTranslation(null)
 
-      const { data } = await axios.post('http://localhost:8000/translation', {
+      const { data } = await axios.post('http://localhost:8001/translation', {
         input,
         tone: activeTone,
         translateToLng: translateTo,
